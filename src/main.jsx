@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './index.css' 
-import Titulo from './titulo'
+import App from './App'
 
-ReactDOM.createRoot(document.getElementById('prueba')).render (
-    <Titulo/>
+ReactDOM.createRoot(document.getElementById('root')).render (
+    <App/>
 )
